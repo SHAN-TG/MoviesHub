@@ -100,10 +100,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("〽️ New Release ⚡️", url="https://t.me/MH_Newrelease1")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("🎬 Our Group ", url="https://t.me/movies_Hubh2")
                     ]
                 ]
             )
