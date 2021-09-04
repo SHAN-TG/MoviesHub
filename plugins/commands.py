@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('〽️ Share  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+                        InlineKeyboardButton('〽️ Share  ➢', url="https://t.me/share/url?url=https://t.me/movies_Hubh2")
                     ]
                     ]
                 await bot.send_cached_media(
