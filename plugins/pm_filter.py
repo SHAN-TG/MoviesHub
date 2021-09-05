@@ -62,6 +62,13 @@ async def filter(client, message):
 
         search = message.text
         result_txt = f"**🎬 Title:** {search}\n**🌟 Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**©️ {message.chat.title} 🍿**"
+
+        nyva=BOT.get("username")
+        if not nyva:
+            botusername=await client.get_me()
+            nyva=botusername.username
+            BOT["username"]=nyva
+        files = await get_filter_results(query=search)
         if files:
             for file in files:
                 file_id = file.file_id
