@@ -7,6 +7,16 @@ from pyrogram.errors import UserNotParticipant
 from utils import get_filter_results, get_file_details, is_subscribed, get_poster
 BUTTONS = {}
 BOT = {}
+
+RATING = ["5.1 | IMDB", "6.2 | IMDB", "7.3 | IMDB", "8.4 | IMDB", "9.5 | IMDB", ]
+GENRES = ["fun, fact",
+         "Thriller, Comedy",
+         "Drama, Comedy",
+         "Family, Drama",
+         "Action, Adventure",
+         "Film Noir",
+         "Documentary"]
+
 @Client.on_message(filters.text & filters.private & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.text & filters.private & filters.incoming)
 async def filter(client, message):
     if message.text.startswith("/"):
@@ -49,12 +59,13 @@ async def filter(client, message):
         return
     if 2 < len(message.text) < 100:    
         btn = []
+
         search = message.text
-        files = await get_filter_results(query=search)
+        result_txt = f"**🎬 Title:** {search}\n**🌟 Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**©️ {message.chat.title} 🍿**"
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f" {file_size} {file_name}"
+                filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
                     )
