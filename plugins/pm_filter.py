@@ -18,10 +18,9 @@ GENRES = ["fun, fact",
          "🔪 Crime, Thriller",
          "Action, Adventure",
          "Mystery, Thriller",
-         "Romance",
          "Entertainment",
          "Film Noir",
-         "Documentary, Drama, Thriller"]
+         "Documentary, Action, Drama, Thriller"]
 
 @Client.on_message(filters.text & filters.private & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.text & filters.private & filters.incoming)
 async def filter(client, message):
