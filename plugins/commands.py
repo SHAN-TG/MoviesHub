@@ -92,7 +92,7 @@ async def start(bot, cmd):
             )
         )
     else:
-        await cmd.send_photo(
+        await bot.send_photo(
             photo = 'https://telegra.ph/file/e3fd31093022ece589a56.jpg',
             caption=START_MSG,
             parse_mode="Markdown",
