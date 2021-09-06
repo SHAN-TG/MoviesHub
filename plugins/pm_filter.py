@@ -16,7 +16,7 @@ GENRES = ["fun, fact",
          "Family, Drama",
          "Fantasy, Drama",
          "🔪 Crime, Thriller",
-         "Action, Adventure"
+         "Action, Adventure",
          "Mystery, Thriller",
          "Romance",
          "Entertainment",
