@@ -15,6 +15,8 @@ GENRES = ["fun, fact",
          "Drama, Comedy",
          "Family,🔪 Drama",
          "Action, Adventure",
+         "History, biography",
+         "Mystery, Thriller",
          "Film Noir",
          "Documentary"]
 
