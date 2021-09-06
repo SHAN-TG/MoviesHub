@@ -19,6 +19,7 @@ GENRES = ["fun, fact",
          "Action, Adventure",
          "History, biography",
          "Mystery, Thriller",
+         "Fantasy, crime",
          "Entertainment",
          "Film Noir",
          "Documentary"]
