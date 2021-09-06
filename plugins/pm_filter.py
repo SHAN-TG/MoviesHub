@@ -14,9 +14,12 @@ GENRES = ["fun, fact",
          "Thriller, Comedy",
          "Drama, Comedy",
          "Family,🔪 Drama",
+         "Drama, Climax Thriller,"
+         "Drama, Romance",
          "Action, Adventure",
          "History, biography",
          "Mystery, Thriller",
+         "Entertainment",
          "Film Noir",
          "Documentary"]
 
