@@ -129,7 +129,7 @@ async def group(client, message):
         btn = []
 
         search = message.text
-        result_txt = f"**🎬 Title:** {search}\n**🌟 Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}**\n\n©️ Powered Bʏ  [Movies Hub](https://t.me/movies_Hubh2)**"
+        result_txt = f"**🎬 Title:** {search}\n**🌟 Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}**\n\n©️ Powered Bʏ  [Movies Hub](https://t.me/share/url?url=https://t.me/movies_Hubh2)**"
 
         nyva=BOT.get("username")
         if not nyva:
