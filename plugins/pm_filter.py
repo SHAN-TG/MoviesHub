@@ -10,28 +10,17 @@ BUTTONS = {}
 BOT = {}
 
 RATING = ["5.1 | IMDB", "6.2 | IMDB", "7.3 | IMDB", "8.4 | IMDB", "9.5 | IMDB", ]
-GENRES = ["Action",
-         "Action, Adventure",
-         "Adventure",
-         "Animation",
-         "Comedy",
+GENRES = ["Fun, fact",
+         "Action",
          "Thriller, Comedy",
-         "🔪 Crime",
-         "🔪 Crime, Thriller",
-         "Drama",
-         "Entertainment",
+         "Drama, Comedy",
          "Family, Drama",
-         "Fantasy",
          "Fantasy, Drama",
-         "Film-Noir",
-         "fun, fact",
-         "Mystery",
+         "🔪 Crime, Thriller",
+         "Action, Adventure",
          "Mystery, Thriller",
-         "Romance",
-         "Sci-Fi",
-         "Thriller",
-         "War",
-         "Western",
+         "Entertainment",
+         "Film Noir",
          "Documentary, Drama, Thriller"]
 
 @Client.on_message(filters.text & filters.private & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.text & filters.private & filters.incoming)
