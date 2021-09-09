@@ -14,7 +14,7 @@ GENRES = ["Action",
          "Comedy",
          "Drama, Thriller",
          "Family, Drama",
-         "Drama, Climax Thriller,"
+         "Drama, Climax Thriller",
          "Romance",
          "Action, Adventure",
          "Mystery, Thriller",
