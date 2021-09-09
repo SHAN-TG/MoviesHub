@@ -19,7 +19,7 @@ GENRES = ["Action",
          "Action, Adventure",
          "Mystery, Thriller",
          "Fantasy, 🔪 Crime",
-         "Action", Adventure",
+         "Action, Adventure",
          "Entertainment",
          "Film Noir",
          "Documentary, Drama, Thriller"]
