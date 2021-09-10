@@ -10,8 +10,8 @@ BUTTONS = {}
 BOT = {}
 
 RATING = ["5.1 | IMDB", "6.2 | IMDB", "7.3 | IMDB", "8.4 | IMDB", "9.5 | IMDB", ]
-GENRES = ["Action",
-         "Thriller, Comedy",
+GENRES = ["Fun, fact",
+         "Action, Thriller",
          "Drama, Comedy",
          "Family, Drama",
          "Fantasy, Drama",
