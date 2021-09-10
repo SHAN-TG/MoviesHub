@@ -11,15 +11,13 @@ BOT = {}
 
 RATING = ["5.1 | IMDB", "6.2 | IMDB", "7.3 | IMDB", "8.4 | IMDB", "9.5 | IMDB", ]
 GENRES = ["Action",
-         "Comedy",
-         "Drama, Thriller",
+         "Thriller, Comedy",
+         "Drama, Comedy",
          "Family, Drama",
-         "Drama, Climax Thriller",
-         "Romance",
+         "Fantasy, Drama",
+         "🔪 Crime, Thriller",
          "Action, Adventure",
          "Mystery, Thriller",
-         "Fantasy, 🔪 Crime",
-         "Action, Adventure",
          "Entertainment",
          "Film Noir",
          "Documentary, Drama, Thriller"]
