@@ -97,7 +97,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here 🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("〽️ New Release ⚡️", url="https://t.me/MH_Newrelease1")
+                        InlineKeyboardButton("〽️ New Release ⚡️", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
                     ],
                     [
                         InlineKeyboardButton("🗣 Our Group ", url="https://t.me/movies_Hubh2")
