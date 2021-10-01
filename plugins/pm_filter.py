@@ -287,7 +287,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(buttons)
                 )
                 return
-        elif query.data == "about":
+        elif query.data == "S H A N":
             buttons = [
                 [
                     InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
