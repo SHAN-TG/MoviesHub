@@ -185,7 +185,7 @@ async def delete(bot, message):
         await msg.edit('File is successfully deleted from database')
     else:
         await msg.edit('File not found in database')
-@Client.on_message(filters.command('about'))
+@Client.on_message(filters.command('S H A N'))
 async def bot_info(bot, message):
     buttons = [
         [
