@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('🔍 Search again ', switch_inline_query_current_chat=''),
                         InlineKeyboardButton('〽️ Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                     ]
                     ]
