@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔍 Search again ', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('〽️ Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+                        InlineKeyboardButton(' Search again 🔎', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -96,7 +96,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔍 Search Here ", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton(" Search Here 🔎", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
                     ],
                     [
