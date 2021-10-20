@@ -103,11 +103,11 @@ async def start(bot, cmd):
                         InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
                     ],
                     [
-                        InlineKeyboardButton("🎭 Movies Hub Channel 📢', url="https://t.me/joinchat/lUOk6p8Lo445MmNl")
+                        InlineKeyboardButton("🎭 Movies Hub Channel 📢", url="https://t.me/joinchat/lUOk6p8Lo445MmNl")
                     ],
                     [
-                        InlineKeyboardButton("Series Hub 📺', url="https://t.me/Series_MH"),
-                        InlineKeyboardButton("Share 🎗 Support', url="https://t.me/share/url?url=https://t.me/movies_Hubh2")
+                        InlineKeyboardButton("Series Hub 📺", url="https://t.me/Series_MH"),
+                        InlineKeyboardButton("Share 🎗 Support", url="https://t.me/share/url?url=https://t.me/movies_Hubh2")
                     ],
                     [
                         InlineKeyboardButton("📡 MH Updates Channel ", url="https://t.me/Update_MH")
