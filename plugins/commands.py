@@ -100,7 +100,15 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("🔍 Search Here ", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")   
+                        InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
+                    ],
+                    [
+                        InlineKeyboardButton("📡 MH Updates Channel ", url="https://t.me/Update_MH")
+                    ],
+                    
+                    
+                    [   InlineKeyboardButton("🔍 Search Here ", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
                     ],
                     [
                         InlineKeyboardButton("📡 MH Updates Channel ", url="https://t.me/Update_MH")
