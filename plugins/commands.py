@@ -103,7 +103,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")   
                     ],
                     [
-                        InlineKeyboardButton("📡 MH Updates Channel ", url="https://t.me/movies_Hubh2")
+                        InlineKeyboardButton("📡 MH Updates Channel ", url="https://t.me/Update_MH")
                     ]
                 ]
             )
