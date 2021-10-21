@@ -95,11 +95,9 @@ async def start(bot, cmd):
         await cmd.reply_photo(photo='https://telegra.ph/file/e3fd31093022ece589a56.jpg', caption=START_MSG.format(cmd.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
                 [
+
                     [
-                        InlineKeyboardButton("🗣 Our Group ", url="https://t.me/movies_Hubh2")
-                    ],
-                    [
-                        InlineKeyboardButton("🔍 Search Here ", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("🗣 Our Group ", url="https://t.me/movies_Hubh2"),
                         InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
                     ],
                     [
