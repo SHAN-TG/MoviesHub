@@ -345,11 +345,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         f_caption=f_caption
                 if f_caption is None:
                     f_caption = f"{title}"
-                buttons = [
-                    [
-                        InlineKeyboardButton('📡 Join Our Updates Channel 💬', url='https://t.me/Update_MH')
-                    ]
-                    ]
                 
                 await query.answer()
                 await client.send_cached_media(
