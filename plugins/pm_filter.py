@@ -316,7 +316,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('〽️ Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+                        InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                     ]
                     ]
                 
@@ -348,7 +348,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('〽️ Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+                        InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                     ]
                     ]
                 
