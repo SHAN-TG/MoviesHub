@@ -27,11 +27,11 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്താൽ മാത്രമേ സിനിമകൾ കിട്ടുകയുള്ളൂ അതുകൊണ്ട് താഴെ കാണുന്ന 🎭 JOIN OUR CHANNEL 📣 എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്തു ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും താഴെ കാണുന്ന 🔄 Try Again എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയുക സിനിമ കിട്ടും \n\n[ You Have Not Yet Joined Our Channel  Please Try Again After Joining ]**",
+                    text="**Please Join My Updates Channel to use this Bot!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🎭 JOIN OUR CHANNEL 📣", url=invite_link.invite_link)
+                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔍 Search again ', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+                        InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('〽️ Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -95,17 +95,12 @@ async def start(bot, cmd):
         await cmd.reply_photo(photo='https://telegra.ph/file/e3fd31093022ece589a56.jpg', caption=START_MSG.format(cmd.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
                 [
-
                     [
-                        InlineKeyboardButton("🗣 Our Group ", url="https://t.me/movies_Hubh2"),
-                        InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
+                        InlineKeyboardButton("Search Here 🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("〽️ New Release ⚡️", url="https://t.me/MH_Newrelease1")
                     ],
                     [
-                        InlineKeyboardButton("🎭 Movies Hub Channel 📢", url="https://t.me/joinchat/lUOk6p8Lo445MmNl")
-                    ],
-                    [
-                        InlineKeyboardButton("Series Hub 📺", url="https://t.me/Series_MH"),
-                        InlineKeyboardButton("Share 🎗 Support", url="https://t.me/share/url?url=https://t.me/movies_Hubh2")
+                        InlineKeyboardButton("🗣 Our Group ", url="https://t.me/movies_Hubh2")
                     ]
                 ]
             )
@@ -190,7 +185,7 @@ async def delete(bot, message):
         await msg.edit('File is successfully deleted from database')
     else:
         await msg.edit('File not found in database')
-@Client.on_message(filters.command('S H A N'))
+@Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
     buttons = [
         [
