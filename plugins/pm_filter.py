@@ -290,8 +290,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "S H A N":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=query),
+                    InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                 ]
                 ]
             await query.message.edit(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -315,8 +315,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=query),
+                        InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                     ]
                     ]
                 
@@ -345,6 +345,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         f_caption=f_caption
                 if f_caption is None:
                     f_caption = f"{title}"
+                buttons = [
+                    [
+                        InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=query),
+                        InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+                    ]
+                    ]
                 
                 await query.answer()
                 await client.send_cached_media(
