@@ -27,11 +27,11 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്താൽ മാത്രമേ സിനിമകൾ കിട്ടുകയുള്ളൂ അതുകൊണ്ട് താഴെ കാണുന്ന 🎭 JOIN OUR CHANNEL 📣 എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്തു ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും താഴെ കാണുന്ന 🔄 Try Again എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്തു START ചെയുക സിനിമ കിട്ടും 😉 \n\n[ You Have Not Yet Joined Our Channel  Please Try Again After Joining ]**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("🎭 JOIN OUR CHANNEL 📣", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('〽️ Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+                        InlineKeyboardButton(' Share Now  ➢', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -96,11 +96,15 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here 🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("〽️ New Release ⚡️", url="https://t.me/MH_Newrelease1")
+                        InlineKeyboardButton("🗣 Our Group ", url="https://t.me/movies_Hubh2"),
+                        InlineKeyboardButton("〽️ New Release ", url="https://t.me/joinchat/aG4_u8iHx31mNzVl")
                     ],
                     [
-                        InlineKeyboardButton("🗣 Our Group ", url="https://t.me/movies_Hubh2")
+                        InlineKeyboardButton("🎭 Movies Hub Channel 📢", url="https://t.me/joinchat/lUOk6p8Lo445MmNl")
+                    ],
+                    [
+                        InlineKeyboardButton("Series Hub 📺", url="https://t.me/Series_MH"),
+                        InlineKeyboardButton("Share 🎗 Support", url="https://t.me/share/url?url=https://t.me/movies_Hubh2")
                     ]
                 ]
             )
