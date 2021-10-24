@@ -106,9 +106,6 @@ async def start(bot, cmd):
                     [
                         InlineKeyboardButton("Series Hub 📺", url="https://t.me/Series_MH"),
                         InlineKeyboardButton("Share 🎗 Support", url="https://t.me/share/url?url=https://t.me/movies_Hubh2")
-                    ],
-                    [
-                        InlineKeyboardButton("📡 MH Updates Channel ", url="https://t.me/Update_MH")
                     ]
                 ]
             )
